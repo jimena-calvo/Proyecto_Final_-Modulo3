@@ -88,7 +88,7 @@ function App() {
   return (
     <div className="app">
       <div className='header'>
-        <h1>STARWARS enciclopedia en ingleh</h1>
+        <h1>STARWARS ENCYCLOPEDIA</h1>
         <div className="filter-buttons">
           <button onClick={()=> setType('people')}>Personajes</button>
           <button onClick={()=> setType('planets')}>Planetas</button>

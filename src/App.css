@@ -14,6 +14,7 @@
 
 .filter-buttons{
   margin: 20px 0;
+
 }
 
 .filter-buttons button{
@@ -21,4 +22,20 @@
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  border: 1px solid #FFE81F;
+  background-color: rgb(51, 51, 51);
+  color: #FFE81F;
+}
+
+.filter-buttons button:hover{
+  background-color: rgb(61, 61, 61);
+}
+
+.filter-buttons button:active{
+  background-color:  #FFE81F;
+  color: black;
+}
+
+.filter-buttons button::slotted{
+  background-color:  #FFE81F;
 }
